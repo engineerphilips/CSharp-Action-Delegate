@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpFuncDelegate\CSharpFuncDelegate.csproj" />
+    <ProjectReference Include="..\..\CSharpActionDelegate\CSharpActionDelegate.csproj" />
   </ItemGroup>
 
 </Project>
