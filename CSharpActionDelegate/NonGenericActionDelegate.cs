@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSharp_Action_Delegate
+﻿namespace CSharp_Action_Delegate
 {
     public class NonGenericActionDelegate
     {
         public void ProcessBmi()
         {
-            double height = 175d;
-            double weight = 75d;
-            double bmi = 0d;
+            var height = 175d;
+            var weight = 75d;
+            var bmi = 0d;
             if (height > 0d && weight > 0d)
             {
                 var h = height / 100d;

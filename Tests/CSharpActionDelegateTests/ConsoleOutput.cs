@@ -1,4 +1,4 @@
-namespace CSharpActionDelegate.UnitTest;
+namespace CSharpActionDelegateTests;
 
 public class ConsoleOutput : IDisposable
 {
